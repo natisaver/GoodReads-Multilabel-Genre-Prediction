@@ -24,8 +24,17 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 
 <img height=400 src="./Images/overview2.png"/>
 
-  ### Scaling
-  `MinMax Scaling` was utilised on X data.
+  ### Scaling & Split
+    
+    `IterativeStratification` was used to train test split the data set via the skmultilearn library, which essentially splits each input into subsets (where each label is considered individually) and then it distributes the samples starting with fewest "positive" samples and working up to the inputs that have the most labels.
+    
+  `MinMax Scaling` was utilised.
+
+  We scale our data because for many machine learning algorithms are sensitive to data scales.
+
+  For algorithms such as logistic regression, neural network, etc. that use gradient descent as an optimization technique, scaling helps the gradient descent converge more quickly towards the minima 
+
+  For Distance algorithms like SVM which uses distances between data points to determine their similarity, higher weightage is given to features with higher magnitude.
   
   ### Multilabel Classifiers
   Three techniques are used to classify the movies into various multi-labels:
