@@ -1,6 +1,5 @@
 # GoodReads-Multilabel-Genre-Prediction
-A multilabel genre predictor for data science module
-# Movie-Genre-Multi-Label-Text-Classification
+## A multilabel genre predictor for data science module
 
 In this project, we predict the genres (top 30 standardisation we created) that a book can be classified into based on the plot description, brightness (luminance) of cover images and numRatings. The data set is obtained from. This is a multi-label classification problem. 
 
