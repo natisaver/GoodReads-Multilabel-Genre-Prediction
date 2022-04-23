@@ -5,7 +5,8 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 
 <img height=400 src="./Images/title.png"/>
 
-##### Table of Contents  
+##### Table of Contents 
+- [Libraries](#libraries)  
 - [Files](#jupyter-notebook-files)  
 - [Overview](#project-overview)  
   - [Train Test Split & Scaling](#scaling)
@@ -14,6 +15,12 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 - [References](#references)  
 
 ---
+## Libraries
+Libraries used:
+- General: `numpy`, `pandas`, `matplotlib`, `seaborn`, `ast`
+- Models & Classifiers: `sklearn`
+- Textual Data: `nltk`, `unicodedata` 
+- Image Processing: `imageio`, `scipy.cluster.vq`, `PIL`
 
 ## Jupyter Notebook Files
 1. Data Preprocessing, Scraping & Cleaning [link to ipynb1](https://github.com/natisaver/GoodReads-Multilabel-Genre-Prediction/blob/main/Notebooks/1_Data_Preprocessing.ipynb)
