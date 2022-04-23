@@ -23,3 +23,5 @@ Three techniques are used to classify the movies into various multi-labels:
 MinMax Scaling was utilised.
 
 Models were evaluated using their F1-Scores.
+
+by Nathaniel, Marcus & Yan Chi
