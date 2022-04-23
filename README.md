@@ -98,7 +98,14 @@ Models were finally evaluated for their `F1-Scores`.
 | TF-IDF + Label Powerset with Clustering + Linear SVC  | 0.29 | 0.26 | 0.27 |
 
 ### References
-- https://scikit-learn.org/stable/modules/multiclass.html
 - https://realpython.com/image-processing-with-the-python-pillow-library/
+- https://www.analyticsvidhya.com/blog/2021/05/how-to-perform-one-hot-encoding-for-multi-categorical-variables/
+- https://www.nltk.org/
+- https://link.springer.com/content/pdf/10.1007%2F978-3-642-23808-6_10.pdf
+- https://towardsdatascience.com/all-about-feature-scaling-bcc0ad75cb35
+- https://iksinc.online/tag/tfidfvectorizer/
+- https://www.sciencedirect.com/topics/computer-science/logistic-regression#:~:text=Logistic%20regression%20is%20a%20process,%2Fno%2C%20and%20so%20on.
+- https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
+
 ---
 by Nathaniel, Marcus & Yan Chi
