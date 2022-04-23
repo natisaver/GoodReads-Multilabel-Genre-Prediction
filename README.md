@@ -6,8 +6,8 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 <img height=400 src="./Images/title.png"/>
 
 ##### Table of Contents  
-[Files](### Jupyter Notebook Files:)  
-[Overview](###Project Overview:)  
+[Files](###jupyter-notebook-files:)  
+[Overview](###project-overview:)  
 ...snip...    
 <a name="headers"/>
 ## Headers
