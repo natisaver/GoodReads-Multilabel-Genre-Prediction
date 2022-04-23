@@ -6,34 +6,38 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 <img height=400 src="./Images/title.png"/>
 
 ##### Table of Contents  
-[Files](###jupyter-notebook-files:)  
-[Overview](###project-overview:)  
-...snip...    
-<a name="headers"/>
-## Headers
+- [Files](#jupyter-notebook-files)  
+- [Overview](#project-overview)  
+  - [Train Test Split & Scaling](#scaling)
+  - [Multilabel Classifiers](#multilabel-classifiers)
+- [Results](#results)  
+- [References](#references)  
 
-### Jupyter Notebook Files:
+---
+
+# Jupyter Notebook Files
 1. Data Preprocessing, Scraping & Cleaning [link to ipynb1](https://github.com/natisaver/GoodReads-Multilabel-Genre-Prediction/blob/main/Notebooks/1_Data_Preprocessing.ipynb)
 2. Exploratory Analysis [link to ipynb2](https://github.com/natisaver/GoodReads-Multilabel-Genre-Prediction/blob/main/Notebooks/2_EDA.ipynb)
 3. Models & Results [link to ipynb3](https://zenodo.org/record/4265096/files/books_1.Best_Books_Ever.csv?download=1)
 
-###Project Overview:
----
+# Project Overview
+
 <img height=400 src="./Images/overview2.png"/>
 ---
+  # Scaling
+  `MinMax Scaling` was utilised on X data.
+  
+  # Multilabel Classifiers
+  Three techniques are used to classify the movies into various multi-labels:
+  * **Binary Relevance**: This consists of fitting one classifier per class, via `OneVsRest`. For each classifier, the class is fitted against all the other classes. The union of all classes that were predicted is taken as the multi-label output. `Logistic Regression` Machine Learning Model was used.
 
-`MinMax Scaling` was utilised on X data.
+  * **Label Powerset**: In this approach, we transform the multi-label problem to a multi-class problem with 1 multi-class classifier trained on all unique label (genre) combinations found in the training data. Each plot in the test data set is classified into one of these unique combinations. `Naive Bayes` algorithm was used.
 
-Three techniques are used to classify the movies into various multi-labels:
-* **Binary Relevance**: This consists of fitting one classifier per class, via `OneVsRest`. For each classifier, the class is fitted against all the other classes. The union of all classes that were predicted is taken as the multi-label output. `Logistic Regression` Machine Learning Model was used.
-
-* **Label Powerset**: In this approach, we transform the multi-label problem to a multi-class problem with 1 multi-class classifier trained on all unique label (genre) combinations found in the training data. Each plot in the test data set is classified into one of these unique combinations. `Naive Bayes` algorithm was used.
-
-* **Label Powerset with Clustering**: We use clustering technique (`k-means`) to reduce the number of possible classes into a manageable number. `Linear SVC` was then used.
+  * **Label Powerset with Clustering**: We use clustering technique (`k-means`) to reduce the number of possible classes into a manageable number. `Linear SVC` was then used.
 
 
 ---
-
+# Results
 Models were finally evaluated for their `F1-Scores`.
 
 | Pipeline | PRecision |  Recall | F1-Score |
@@ -42,7 +46,7 @@ Models were finally evaluated for their `F1-Scores`.
 | TF-IDF + Label Powerset + Naive Bayes  | 0.58 | 0.42 | 0.43 | 
 | TF-IDF + Label Powerset with Clustering + Linear SVC  | 0.29 | 0.26 | 0.27 |
 
-References:
+# References
 - https://scikit-learn.org/stable/modules/multiclass.html
 ---
 by Nathaniel, Marcus & Yan Chi
