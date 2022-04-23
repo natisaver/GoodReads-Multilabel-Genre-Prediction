@@ -31,5 +31,5 @@ Models were finally evaluated for their F1-Scores.
 | TF-IDF + Label Powerset with Clustering + Linear SVC  | 0.29 | 0.26 | 0.27 |
 
 
-```
+---
 by Nathaniel, Marcus & Yan Chi
