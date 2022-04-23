@@ -24,10 +24,12 @@ Three techniques are used to classify the movies into various multi-labels:
 
 Models were finally evaluated for their F1-Scores.
 
-| Pipeline | Second Header | First Header  | Second Header |
+| Pipeline | PRecision |  Recall | F1-Score |
 | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| TF-IDF + Binary Relevance + Logistic Regression  | 0.65  | 0.26  | 0.29 |
+| TF-IDF + Label Powerset + Naive Bayes  | 0.58 | 0.42 | 0.43 | 
+| TF-IDF + Label Powerset with Clustering + Linear SVC  | 0.29 | 0.26 | 0.27 |
 
+
+```
 by Nathaniel, Marcus & Yan Chi
