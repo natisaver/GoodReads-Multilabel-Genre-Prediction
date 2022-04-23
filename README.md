@@ -98,5 +98,6 @@ Models were finally evaluated for their `F1-Scores`.
 
 ### References
 - https://scikit-learn.org/stable/modules/multiclass.html
+- https://realpython.com/image-processing-with-the-python-pillow-library/
 ---
 by Nathaniel, Marcus & Yan Chi
