@@ -1,14 +1,14 @@
 # GoodReads-Multilabel-Genre-Prediction
 ## A multilabel genre predictor of books for DSAI Project
 
-In this project, we predict the genres (self-curated top 30) that a book can be classified into based on the plot description, brightness (luminance) of cover images and numRatings. The data set is obtained from Zenodo. 
+In this project, we predict the genres (self-curated top 30) that a book can be classified into based on the plot description, brightness (luminance) of cover images and numRatings. The data set is obtained from Zenodo ([link](https://zenodo.org/record/4265096/files/books_1.Best_Books_Ever.csv?download=1)). 
 
 <img height=400 src="./Images/title.png"/>
 
 Files:
-1. Data Preprocessing, Scraping & Cleaning
-2. Exploratory Analysis
-3. Models & Results
+1. Data Preprocessing, Scraping & Cleaning [link1](https://github.com/natisaver/GoodReads-Multilabel-Genre-Prediction/blob/main/Notebooks/1_Data_Preprocessing.ipynb)
+2. Exploratory Analysis [link2](https://github.com/natisaver/GoodReads-Multilabel-Genre-Prediction/blob/main/Notebooks/2_EDA.ipynb)
+3. Models & Results [link3](https://zenodo.org/record/4265096/files/books_1.Best_Books_Ever.csv?download=1)
 
 Here is the overview:
 ---
