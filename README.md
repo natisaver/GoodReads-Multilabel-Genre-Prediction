@@ -20,6 +20,40 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 2. Exploratory Analysis [link to ipynb2](https://github.com/natisaver/GoodReads-Multilabel-Genre-Prediction/blob/main/Notebooks/2_EDA.ipynb)
 3. Models & Results [link to ipynb3](https://zenodo.org/record/4265096/files/books_1.Best_Books_Ever.csv?download=1)
 
+Genre list
+```
+top30genrelist = ['fiction',
+'fantasy',
+'romance',
+'young adult',
+'contemporary',
+'adult',
+'nonfiction',
+'history',
+'novels',
+'mystery',
+'historical fiction',
+'audiobook',
+'science fiction',
+'paranormal',
+'literature',
+'adventure',
+'classics',
+'thriller',
+'childrens',
+'magic',
+'humor',
+'contemporary romance',
+'crime',
+'suspense',
+'middle grade',
+'chick lit',
+'biography',
+'teen',
+'horror',
+'philosophy']
+```
+
 ## Project Overview
 
 <img height=400 src="./Images/overview2.png"/>
