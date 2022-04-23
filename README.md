@@ -22,7 +22,10 @@ Three techniques are used to classify the movies into various multi-labels:
 
 * **Label Powerset with Clustering**: We use clustering technique (`k-means`) to reduce the number of possible classes into a manageable number. `Linear SVC` was then used.
 
-Models were finally evaluated for their F1-Scores.
+
+---
+
+Models were finally evaluated for their `F1-Scores`.
 
 | Pipeline | PRecision |  Recall | F1-Score |
 | ------------- | ------------- | ------------- | ------------- |
