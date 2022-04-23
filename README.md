@@ -93,7 +93,7 @@ top30genrelist = ['fiction',
 ## Results
 Models were finally evaluated for their `F1-Scores`.
 
-| Pipeline | PRecision |  Recall | F1-Score |
+| Pipeline | Precision |  Recall | F1-Score |
 | ------------- | ------------- | ------------- | ------------- |
 | TF-IDF + Binary Relevance + Logistic Regression  | 0.65  | 0.26  | 0.29 |
 | TF-IDF + Label Powerset + Naive Bayes  | 0.58 | 0.42 | 0.43 | 
