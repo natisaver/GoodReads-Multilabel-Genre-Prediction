@@ -3,7 +3,7 @@
 
 In this project, we predict the genres (self-curated top 30) that a book can be classified into based on the plot description, brightness (luminance) of cover images and numRatings. The data set is obtained from [Zenodo](https://zenodo.org/record/4265096/files/books_1.Best_Books_Ever.csv?download=1). 
 
-<img height=400 src="./Images/title.png"/>
+<img height=400 src="./Images/title2.png"/>
 
 ##### Table of Contents 
 - [Libraries](#libraries)  
