@@ -13,15 +13,21 @@ Here is the overview:
 <img height=400 src="./Images/overview2.png"/>
 ---
 
+`MinMax Scaling` was utilised on X data.
+
 Three techniques are used to classify the movies into various multi-labels:
-* **Binary Relevance**: This consists of fitting one classifier per class. For each classifier, the class is fitted against all the other classes. The union of all classes that were predicted is taken as the multi-label output. `OneVsRest` Classifier was used.
+* **Binary Relevance**: This consists of fitting one classifier per class, via `OneVsRest`. For each classifier, the class is fitted against all the other classes. The union of all classes that were predicted is taken as the multi-label output. `Logistic Regression` Machine Learning Model was used.
 
 * **Label Powerset**: In this approach, we transform the multi-label problem to a multi-class problem with 1 multi-class classifier trained on all unique label (genre) combinations found in the training data. Each plot in the test data set is classified into one of these unique combinations. `Naive Bayes` algorithm was used.
 
-* **Label Powerset with Clustering**: We use clustering technique (`k-means`) to reduce the number of possible classes into a manageable number. `Linear SVC` was used.
+* **Label Powerset with Clustering**: We use clustering technique (`k-means`) to reduce the number of possible classes into a manageable number. `Linear SVC` was then used.
 
-MinMax Scaling was utilised.
+Models were finally evaluated for their F1-Scores.
 
-Models were evaluated using their F1-Scores.
+| Pipeline | Second Header | First Header  | Second Header |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
 by Nathaniel, Marcus & Yan Chi
