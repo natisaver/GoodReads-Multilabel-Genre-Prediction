@@ -5,7 +5,7 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 
 <img height=400 src="./Images/title2.png"/>
 
-##### Table of Contents 
+## Table of Contents 
 - [Libraries](#libraries)  
 - [Files](#jupyter-notebook-files)  
 - [Overview](#project-overview)  
@@ -13,6 +13,7 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
   - [Multilabel Classifiers](#multilabel-classifiers)
 - [Results](#results)  
 - [References](#references)  
+- [Contribution](#contribution)
 
 ---
 ## Libraries
@@ -97,7 +98,9 @@ Models were finally evaluated for their `F1-Scores`.
 | TF-IDF + Label Powerset + Naive Bayes  | 0.58 | 0.42 | 0.43 | 
 | TF-IDF + Label Powerset with Clustering + Linear SVC  | 0.29 | 0.26 | 0.27 |
 
-### References
+## Things we learnt from the project
+
+## References
 - https://realpython.com/image-processing-with-the-python-pillow-library/
 - https://www.analyticsvidhya.com/blog/2021/05/how-to-perform-one-hot-encoding-for-multi-categorical-variables/
 - https://www.nltk.org/
@@ -106,6 +109,30 @@ Models were finally evaluated for their `F1-Scores`.
 - https://iksinc.online/tag/tfidfvectorizer/
 - https://www.sciencedirect.com/topics/computer-science/logistic-regression#:~:text=Logistic%20regression%20is%20a%20process,%2Fno%2C%20and%20so%20on.
 - https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
+
+## Contribution
+Nathaniel: 
+-	Extracting RGB using Pillows Library, General Data Cleaning
+-	Genre Analysis and Cleaning
+-	Genre Distribution 
+-	Word Cloud
+-	Iterative Stratification (Train/Test Split)
+-	Logistic Regression
+-	Model Analysis (Precision, Recall, F1-Score)
+
+Marcus: 
+-	Web Scraping
+-	Multi-Hot Binary Encoding of Genre, General Data Cleaning
+-	Multi-Genre Distribution plot 
+-	Min-Max Scaling
+-	Linear Support Vector Machine Classifier and K-Means Clustering
+
+Yan Chi: 
+-	Cleaning description using NLTK, General Data Cleaning
+-	Heatmap plot
+-	Analysing Numerical Variables with respect to genre
+-	TF-IDF Vectorizing 
+-	Naïve Bayes
 
 ---
 by Nathaniel, Marcus & Yan Chi
