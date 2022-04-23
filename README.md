@@ -73,7 +73,7 @@ top30genrelist = ['fiction',
     
   `MinMax Scaling` was utilised.
 
-  We scale our data because for many machine learning algorithms are sensitive to data scales.
+  We scale our data because many machine learning algorithms are sensitive to data scales.
 
   For algorithms such as logistic regression, neural network, etc. that use gradient descent as an optimization technique, scaling helps the gradient descent converge more quickly towards the minima 
 
