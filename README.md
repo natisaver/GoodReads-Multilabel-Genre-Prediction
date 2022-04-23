@@ -15,7 +15,7 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 
 ---
 
-# Jupyter Notebook Files
+## Jupyter Notebook Files
 1. Data Preprocessing, Scraping & Cleaning [link to ipynb1](https://github.com/natisaver/GoodReads-Multilabel-Genre-Prediction/blob/main/Notebooks/1_Data_Preprocessing.ipynb)
 2. Exploratory Analysis [link to ipynb2](https://github.com/natisaver/GoodReads-Multilabel-Genre-Prediction/blob/main/Notebooks/2_EDA.ipynb)
 3. Models & Results [link to ipynb3](https://zenodo.org/record/4265096/files/books_1.Best_Books_Ever.csv?download=1)
