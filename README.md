@@ -11,7 +11,8 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 - [Overview](#project-overview)  
   - [Train Test Split & Scaling](#scaling)
   - [Multilabel Classifiers](#multilabel-classifiers)
-- [Results](#results)  
+- [Results](#results) 
+- [Things we learnt from the project](#Things we learnt from the project) 
 - [References](#references)  
 - [Contribution](#contribution)
 
@@ -99,6 +100,17 @@ Models were finally evaluated for their `F1-Scores`.
 | TF-IDF + Label Powerset with Clustering + Linear SVC  | 0.29 | 0.26 | 0.27 |
 
 ## Things we learnt from the project
+-	Web Scraping
+-	Image Feature Extraction using Pillows 
+-	Textual Analysis: Using NLTK library to clean strings 
+-	Multi-Hot Binary Encoding
+-	Word Cloud
+-	Iterative Stratification for Train-Test Split
+-	MinMax Scaling
+-	TF-IDF Vectorizer
+-	Multi-Label Classification Algorithms: Binary Relevance, Label Powerset, Label Powerset with Clustering
+-	Logistic Regression, Naïve Bayes, Linear SVC
+-	Concepts of Precision, Recall and F1-Score
 
 ## References
 - https://realpython.com/image-processing-with-the-python-pillow-library/
