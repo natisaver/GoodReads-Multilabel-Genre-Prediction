@@ -26,7 +26,7 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
 
   ### Scaling & Split
     
-    `IterativeStratification` was used to train test split the data set via the skmultilearn library, which essentially splits each input into subsets (where each label is considered individually) and then it distributes the samples starting with fewest "positive" samples and working up to the inputs that have the most labels.
+  `IterativeStratification` was used to train test split the data set via the skmultilearn library, which essentially splits each input into subsets (where each label is considered individually) and then it distributes the samples starting with fewest "positive" samples and working up to the inputs that have the most labels.
     
   `MinMax Scaling` was utilised.
 
