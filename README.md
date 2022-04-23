@@ -3,6 +3,8 @@
 
 In this project, we predict the genres (self-curated top 30) that a book can be classified into based on the plot description, brightness (luminance) of cover images and numRatings. The data set is obtained from. This is a multi-label classification problem. 
 
+<img height=400 src="./Images/title.png"/>
+
 Files:
 1. Data Preprocessing, Scraping & Cleaning
 2. Exploratory Analysis
