@@ -12,7 +12,7 @@ In this project, we predict the genres (self-curated top 30) that a book can be 
   - [Train Test Split & Scaling](#scaling)
   - [Multilabel Classifiers](#multilabel-classifiers)
 - [Results](#results) 
-- [Things we learnt from the project](#Things we learnt from the project) 
+- [Things we learnt from the project](#Things-we-learnt-from-the-project) 
 - [References](#references)  
 - [Contribution](#contribution)
 
