@@ -5,7 +5,7 @@ A multilabel genre predictor for data science module
 In this project, we predict the genres (top 30 standardisation we created) that a book can be classified into based on the plot description, brightness (luminance) of cover images and numRatings. The data set is obtained from. This is a multi-label classification problem. 
 
 Here is the overview:
-<img height=400 src="./images/overview.png"/>
+<img height=400 src="./Images/overview.png"/>
 
 Three techniques are used to classify the movies into various multi-labels:
 * **Binary Relevance**: This consists of fitting one classifier per class. For each classifier, the class is fitted against all the other classes. The union of all classes that were predicted is taken as the multi-label output. `OneVsRest` Classifier was used.
