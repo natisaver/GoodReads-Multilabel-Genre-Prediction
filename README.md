@@ -135,12 +135,14 @@ Nathaniel:
 Marcus: 
 -	Web Scraping
 -	Multi-Hot Binary Encoding of Genre, General Data Cleaning
+-	Genre Analysis and Cleaning
 -	Multi-Genre Distribution plot 
 -	Min-Max Scaling
 -	Linear Support Vector Machine Classifier and K-Means Clustering
 
 Yan Chi: 
 -	Cleaning description using NLTK, General Data Cleaning
+-	Genre Analysis and Cleaning
 -	Heatmap plot
 -	Analysing Numerical Variables with respect to genre
 -	TF-IDF Vectorizing 
